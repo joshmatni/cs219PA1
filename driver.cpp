@@ -1,3 +1,7 @@
+// Author: Josh Matni
+// Purpose: CS219 PA 1 replicating ADD operation in Assembly
+// Date: 10/4/2023
+
 #include <iostream>
 #include <fstream>
 #include <string>
