@@ -16,8 +16,6 @@ This project simulates the ADD operation of machine language (in C++).
 4. The program then checks for overflow.
 5. The result is displayed.
 
-## Result
-The program displays the result in the terminal. It also indicates if an overflow occurred.
-
-## Overflow
-The overflow scenario is detected by checking if adding the two numbers would exceed the limit of uint32_t.
+## Result And Overflow
+- The program displays the result in the terminal. It also indicates if an overflow occurred.
+- The overflow scenario is detected by checking if adding the two numbers would exceed the limit of uint32_t.

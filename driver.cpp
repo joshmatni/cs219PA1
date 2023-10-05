@@ -23,7 +23,7 @@ int main()
         return 1;
     }
 
-    while (file >> operation >> operand1 >> operand2)
+    while(file >> operation >> operand1 >> operand2)
     {
         if(operation == "ADD") 
         {
@@ -50,5 +50,5 @@ bool add(const string& operand1, const string& operand2, uint32_t& result)
     uint32_t num2 = stoul(operand2, nullptr, 16);
     
     result = num1 + num2;
-    return num1 > UINT32_MAX - num2; // Check for overflow
+    return num1 > UINT32_MAX - num2; // returns a check for overflow
 }
