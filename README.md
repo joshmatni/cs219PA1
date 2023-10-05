@@ -1,16 +1,16 @@
 # cs219PA1
 PA #1 for CS219 Computer Organization
 # Machine Language Simulator
-This project simulates the ADD operation of machine language.
+This project simulates the ADD operation of machine language. (in C++)
 
 ## How to run
-1. Ensure you have a C++ compiler (e.g., g++).
-2. Compile the code using the command: `g++ filename.cpp -o outputname`
-3. Run the program using: `./outputname`
-4. Ensure you have an `input.txt` file in the same directory with the operations.
+1. Ensure you have a C++ compiler (g++).
+2. Compile the code using the command: `g++ driver.cpp -o Adding`
+3. Run the program using: `./Adding`
+4. Ensure you have an `operations.txt` file in the same directory with the operations.
 
 ## Working Process
-1. The program reads from the `input.txt` file.
+1. The program reads from the `operations.txt` file.
 2. It reads the operation, operand1, and operand2.
 3. If the operation is ADD, it performs the addition.
 4. The program then checks for overflow.

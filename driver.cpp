@@ -2,6 +2,7 @@
 #include <fstream>
 #include <string>
 #include <cstdint>
+#include <iomanip> // for std::uppercase result
 #define ADDITION_FILE "operations.txt"
 using namespace std;
 
@@ -31,7 +32,7 @@ int main()
         {
             uint32_t result;
             bool overflow = performAddition(operand1, operand2, result);
-            cout << "ADD " << operand1 << " " << operand2 << ": 0x" << hex << result << endl;
+            cout << "ADD " << operand1 << " " << operand2 << ": 0x" << hex << uppercase << result << endl;
             if (overflow) 
             {
                 cout << "Overflow: YES" << endl;
