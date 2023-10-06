@@ -17,10 +17,10 @@ This project simulates the ADD operation of machine language (in C++).
 5. The result is displayed.
 
 ### Main Function:
-1. Opens the file "operations.txt".
+1. Opens the file `operations.txt`.
 2. If the file cannot be opened, it prints an error message and exits.
 3. Reads in operations and operands from the file in the format: operation operand1 operand2.
-4. If the operation is "ADD", it performs an addition using the two hex operands.
+4. If the operation is `ADD`, it performs an addition using the two hex operands.
 5. Prints the result in uppercase hexadecimal format.
 6. Also prints whether there was an overflow during the addition.
 7. Closes the file after reading all operations.
